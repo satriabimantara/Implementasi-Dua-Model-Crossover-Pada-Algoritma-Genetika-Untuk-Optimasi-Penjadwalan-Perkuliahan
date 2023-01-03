@@ -1,0 +1,148 @@
+/*All Utilities*/
+/*Bootstrap icon modification*/
+.bi-star-fill{
+	fill: orange;
+}
+.bi-trash-fill, .bi-plus-circle-fill, .bi-dash-circle-fill{
+	width: 30px;
+	height: 30px;
+}
+.bi-trash-fill{
+	fill: #d61c28;
+}
+.bi-plus-circle-fill{
+	fill :#25cc68;
+}
+.bi-dash-circle-fill{
+	fill: #bdbd2f;
+}
+.bi-geo{
+	width: 20px;
+	height: 20px;
+}
+/*Tombol*/
+.btn-success {
+	background-color: #1FCC44;
+}
+.btn-group-color{
+	background-color: white;
+}
+.tombol {
+	text-transform: capitalize;
+	border-radius: 20px;
+	font-size: 15px;
+	font-weight: 100;
+	font-family: 'Lato', sans-serif;
+}
+.tombol-profile {
+	background-color: #FF1493;
+	color: white;
+	text-decoration: none;
+}
+.tombol-profile:hover {
+	color: white;
+}
+.tombol-reset {
+	width: 200px;
+	background-color:  #ff0000 ;
+	color: white;
+	text-transform: uppercase;
+}
+.btn-card{
+	font-size: 15px;
+	font-weight: 200;
+	font-family: 'Lato', sans-serif;
+	border-radius: 10px;
+}
+.btn-block {
+	border-radius: 20px;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+
+
+
+/* 1. login.php */
+.bg-login {
+	background-color: #f5f5f4;
+}
+
+.bg-card-login {
+	margin-top: 80px;
+	margin-bottom: 80px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.in-card {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.input-login {
+	border-radius: 8px;
+	background-color: #E6E6E6;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+}
+
+.pict-card {
+	display: block;
+}
+.form-label {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.img-portrait {
+	width: 400px;
+	height: 700px;
+	margin-left: auto;
+	display: block;
+	margin-right: auto;
+	border-radius: 10px;
+}
+
+.login-title {
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 50px;
+}
+a.text-forgot-login {
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+span.text-forgot-login {
+	color: #1FCC44;
+}
+a.text-createaccount {
+	color: #1FCC44;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+.text-forgot {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: grey;
+	margin-bottom: 50px;
+	margin-top: 25px;
+}
+
+/*Media Web Browser on Dekstrop*/
+@media (min-width: 992px) {
+	/*All Utilities*/
+	/*Tombol*/
+	.tombol {
+		font-size: 15px;
+		font-weight: 200;
+		font-family: 'Lato', sans-serif;
+		text-transform: uppercase;
+	}
+}
