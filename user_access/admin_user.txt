@@ -1,4 +1,0 @@
-nama: Satria Bimantara
-email: 6025221014@mhs.its.ac.id
-username: satriabimantara
-password: satria12345
